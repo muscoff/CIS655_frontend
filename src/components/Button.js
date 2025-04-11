@@ -6,7 +6,7 @@ export default function Button({name, className, onClick}) {
         <button 
             className={className ?? ''}
             onClick={
-                ()=>onClick ? onClick() : null
+                () => onClick ? onClick() : null
             }
         >
             {name ?? ''}
