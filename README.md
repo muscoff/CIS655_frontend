@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# Frontend Installation Setup
+-To do any installation at the frontend, all you have to do is first make sure you have node.js already installed on your computer.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- You need to navigate to this project directory and run the command npm install. This would install all the packages that is required to run the frontend app.
+
+- To start the frontend app, run the command npm start. This would start the application locally and can be accessed via http://localhost:3000.
+
+# How The Application Works
+- You first need to create an account with the application to have access.
+- Once you have an account, login and upon successful login, you can immediately access the dashboard.
+
+- There are two main things you can do from the dashboard, you can either upload a new document that would be saved in the database and Google Cloud Storage or you can search for a document via the application and view documents saved in the app.
+
+- The application only fetch all the documents and records of a particular user.
 
 ## Available Scripts
 
